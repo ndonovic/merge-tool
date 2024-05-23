@@ -1,0 +1,131 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-weight: 900;
+}
+
+p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+#input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex-basis: calc(33.33% - 20px);
+}
+
+.input-field {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    min-height: 200px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Outfit', sans-serif;
+}
+
+.remove-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #ff5c5c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff7f00;
+}
+
+#result-container {
+    margin-top: 30px;
+}
+
+#result-count {
+    font-weight: bold;
+    color: #333;
+}
+
+#output-format {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#result {
+    flex: 1;
+    width: 90%;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-height: 100px;
+    max-height: 300px;
+    overflow-y: auto;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Outfit', sans-serif;
+}
+
+.add-field-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#output-format {
+    font-family: 'Outfit', sans-serif;
+}

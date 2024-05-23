@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Merge Tool</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Outfit" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Merge Tool</h1>
+        <p>Enter words in the fields below (one word per line) and click "Merge" to generate all possible combinations.
+        </p>
+        <div id="input-container"></div>
+        <div class="button-container">
+            <button id="merge-button">Merge</button>
+        </div>
+        <div id="result-container">
+            <p>Total combinations: <span id="result-count">0</span></p>
+            <div>
+                <label for="output-format">Output Format:</label>
+                <select id="output-format">
+                    <option value="linebreak">Line Break</option>
+                    <option value="comma">Comma-separated</option>
+                </select>
+            </div>
+            <textarea id="result" rows="10" readonly></textarea>
+            <div class="button-container">
+                <button id="copy-button" style="display: none;">Copy to Clipboard</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
